@@ -31,3 +31,8 @@ highlight ColorColumn ctermbg=233
 
 " Stop vim from inserting line break characters for long lines
 :set wrap linebreak textwidth=0
+
+set formatoptions-=tc
+
+" Turn on hightlighting of search hits
+set hlsearch
