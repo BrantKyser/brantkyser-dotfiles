@@ -36,3 +36,9 @@ set formatoptions-=tc
 
 " Turn on hightlighting of search hits
 set hlsearch
+
+" Use system clipboard by default
+set clipboard=unnamed
+
+au VimEnter *  NERDTree
+:map <Leader>n :NERDTree<cr>

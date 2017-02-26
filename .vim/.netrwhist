@@ -1,0 +1,4 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/Users/bkyser/Dev/tsh/TENA,MiddlewareIDL,trunk-6.1.0,SourceCode,source,all/TENA/Middleware/IDL'
+let g:netrw_dirhist_2='/Users/bkyser/Dev/tsh/TENA,BC610.mw,trunk-1.0.0,BuildContext,source,all'
