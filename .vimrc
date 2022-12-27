@@ -29,7 +29,7 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 "
 Plugin 'Valloric/YouCompleteMe'
 
-Plugin 'CoatiSoftware/vim-sourcetrail'
+Plugin 'preservim/nerdtree'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -98,3 +98,5 @@ au VimEnter *  NERDTree
 set tabstop=2
 set shiftwidth=2
 set expandtab
+
+:packadd termdebug
